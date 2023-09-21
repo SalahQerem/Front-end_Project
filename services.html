@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/assets/img/logo-red.svg" type="image/x-icon">
+    <title>Services</title>
+
+    <link rel="stylesheet" href="vender/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="vender/fontawesome/all.min.css">
+    <link rel="stylesheet" href="assets/css/services-media.css">
+    <link rel="stylesheet" href="assets/css/services-style.css">
+    
+</head>
+<body>
+    <section class="desktop-nav fs-6">
+    <div class="nav-info d-flex justify-content-between text-white">
+        <div class="d-flex">
+            <div class="d-flex align-items-center px-3">
+                <i class="fa-solid fa-location-dot px-2 fs-5"></i>
+                <p class="m-0 py-2">29 rue Royale, 69001 Lyon</p>
+            </div>
+            <div class="d-flex align-items-center px-3">
+                <i class="fa-regular fa-envelope px-2 fs-5"></i>
+                <a href="#" class="m-0 py-2 text-decoration-none text-white">email@example.com</a>
+            </div>
+        </div>
+        <ul class="m-0 me-5 d-flex justify-content-around list-unstyled align-items-center">
+            <li><a href="#" class="m-0 py-2 px-3 text-decoration-none text-white">FAQ</a></li>
+            <li><a href="#" class="m-0 py-2 px-3 text-decoration-none text-white">Privacy Policy</a></li>
+            <li><a href="#" class="m-0 py-2 px-3 text-decoration-none text-white">Terms of Use</a></li>
+        </ul>
+    </div>
+    <nav class="navbar navbar-expand-lg bg-white">
+       <div class="container-fluid px-5">
+       <a class="navbar-brand" href="#">
+        <img src="assets/img/logo-red.svg" alt="logo image" class="img-fluid">
+       </a>
+       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+       </button>
+       <div class="collapse navbar-collapse" id="navbarSupportedContent">
+         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class=" nav-item dropdown">
+             <a class="position-relative nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+               <span class="">HOME</span>
+               <i class="position-absolute fa-solid fa-chevron-down"></i>
+             </a>
+             <ul class="overflow-auto dropdown-menu">
+               <li><a class="dropdown-item py-2" href="#">Factory Home</a></li>
+               <li><a class="dropdown-item py-2" href="index.html">Metallurgy Home</a></li>
+               <li><a class="dropdown-item py-2" href="#">Renewable energy</a></li>
+             </ul>
+          </li>
+          <li class=" nav-item dropdown">
+            <a class="position-relative nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <span class="">PAGES</span>
+              <i class="position-absolute fa-solid fa-chevron-down"></i>
+            </a>
+            <ul class="overflow-auto dropdown-menu">
+                <li><a class="dropdown-item py-2" href="#">About Us</a></li>
+                <li><a class="dropdown-item py-2" href="#">Our Philosophy</a></li>
+                <li><a class="position-relative dropdown-item py-2" href="#">
+                    <span class="">Our Team</span>
+                    <i class="position-absolute fa-solid fa-chevron-right"></i></a></li>
+                <li><a class="position-relative dropdown-item py-2" href="#">
+                    <span class="">Shop</span>
+                    <i class="position-absolute fa-solid fa-chevron-right"></i></a></li>
+                <li><a class="dropdown-item py-2" href="#">FAQ’s</a></li>
+                <li><a class="dropdown-item py-2" href="#">Coming Soon</a></li>
+                <li><a class="dropdown-item py-2" href="#">404</a></li>
+              </ul>
+          </li>
+          <li class=" nav-item dropdown">
+            <a class="position-relative nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <span class="">PORTFOLIO</span>
+              <i class="position-absolute fa-solid fa-chevron-down"></i>
+            </a>
+            <ul class="overflow-auto dropdown-menu">
+                <li><a class="dropdown-item py-2" href="#">Portfolio Grid</a></li>
+                <li><a class="dropdown-item py-2" href="#">Portfolio Single</a></li>
+            </ul>
+          </li>
+          <li class=" nav-item dropdown">
+            <a class="position-relative nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <span class="text-mainColor">SARVICES</span>
+              <i class="position-absolute fa-solid fa-chevron-down text-mainColor"></i>
+            </a>
+            <ul class="overflow-auto dropdown-menu">
+                <li><a class="dropdown-item py-2" href="#">Services</a></li>
+                <li><a class="dropdown-item py-2" href="single-service.html">Single service</a></li>
+            </ul>
+          </li>
+          <li class=" nav-item dropdown">
+            <a class="position-relative nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <span class="">BLOG</span>
+              <i class="position-absolute fa-solid fa-chevron-down"></i>
+            </a>
+            <ul class="overflow-auto dropdown-menu">
+                <li><a class="dropdown-item py-2" href="#">Blog List</a></li>
+                <li><a class="dropdown-item py-2" href="#">Blog Single</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="contact-us.html"><span>CONTACTS</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+          </li>
+          <li class=" nav-item dropdown">
+            <a class="position-relative nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <span class=""><i class="fs-6 fa-solid fa-cart-shopping"></i></span>
+              
+            </a>
+            <ul class="cart overflow-auto dropdown-menu">
+                <li><a class="dropdown-item py-2" href="#">No products in the cart.</a></li>
+            </ul>
+          </li>
+         </ul>
+       </div>
+     </div>
+   </nav>
+    </section>
+    <section class="mobile-nav">
+    <nav class="navbar bg-body-tertiary fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="assets/img/logo-red.svg" alt="logo image" class="img-fluid">
+            </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end bg-black text-white" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <i class="fa-solid fa-arrow-right-long ps-3 pt-3"></i>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 px-3">
+                <li class="nav-item dropdown position-relative">
+                  <a class="nav-link dropdown-toggle position-relative" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" onclick="rotateIcon()">
+                    <span>Home</span>
+                    <i class="fa-solid fa-chevron-right position-absolute end-0"></i>
+                  </a>
+                  <ul class="dropdown-menu bg-black">
+                    <li><a class="text-white dropdown-item" href="#">Factory Home</a></li>
+                    <li><a class="text-white dropdown-item" href="index.html">Metallurgy Home</a></li>
+                    <li><a class="text-white dropdown-item" href="#">Renewable energy</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown position-relative">
+                    <a class="nav-link dropdown-toggle position-relative" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" onclick="rotateIcon()">
+                      <span>Pages</span>
+                      <i class="fa-solid fa-chevron-right position-absolute end-0"></i>
+                    </a>
+                    <ul class="dropdown-menu bg-black">
+                      <li><a class="text-white dropdown-item" href="#">About Us</a></li>
+                      <li><a class="text-white dropdown-item" href="#">Our Philosophy</a></li>
+                      <li><a class="position-relative text-white dropdown-item" href="#"><span class="">Our Team</span>
+                        <i class="position-absolute fa-solid fa-chevron-right"></i></a></li>
+                      <li><a class="position-relative text-white dropdown-item" href="#"><span class="">Shop</span>
+                        <i class="position-absolute fa-solid fa-chevron-right"></i></a></li>
+                      <li><a class="text-white dropdown-item" href="#">FAQ’s</a></li>
+                      <li><a class="text-white dropdown-item" href="#">Coming Soon</a></li>
+                      <li><a class="text-white dropdown-item" href="#">404</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown position-relative">
+                  <a class="nav-link dropdown-toggle position-relative" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" onclick="rotateIcon()">
+                    <span>Portfolio</span>
+                    <i class="fa-solid fa-chevron-right position-absolute end-0"></i>
+                  </a>
+                  <ul class="dropdown-menu bg-black">
+                    <li><a class="text-white dropdown-item" href="#">Portfolio Grid</a></li>
+                    <li><a class="text-white dropdown-item" href="#">Portfolio Single</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown position-relative">
+                    <a class="nav-link dropdown-toggle position-relative" href="services.html" role="button" data-bs-toggle="dropdown" aria-expanded="false" onclick="rotateIcon()">
+                      <span>Services</span>
+                      <i class="fa-solid fa-chevron-right position-absolute end-0"></i>
+                    </a>
+                    <ul class="dropdown-menu bg-black">
+                      <li><a class="text-white dropdown-item" href="#">Services</a></li>
+                      <li><a class="text-white dropdown-item" href="single-service.html">Single service</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown position-relative">
+                    <a class="nav-link dropdown-toggle position-relative" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" onclick="rotateIcon()">
+                      <span>Blog</span>
+                      <i class="fa-solid fa-chevron-right position-absolute end-0"></i>
+                    </a>
+                    <ul class="dropdown-menu bg-black">
+                      <li><a class="text-white dropdown-item" href="#">Blog List</a></li>
+                      <li><a class="text-white dropdown-item" href="#">Blog Single</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item position-relative">
+                   <a class="nav-link" href="contact-us.html">Contacts</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </section>
+    <section class="header d-flex justify-content-center align-items-center">
+        <div class="text-white">
+            <div class="text-center pb-3">
+                <span class="pe-1">HOME</span>
+                <i class="fa-solid fa-chevron-right"></i>
+                <span class="ps-1">SERVICES</span>
+            </div>
+            <h1>SERVICES</h1>
+        </div> 
+    </section>
+    <section class="global-data py-5">
+      <div class="container py-5">
+          <div class="row">
+              <div class="col-xl-6 order-1 order-xl-0 py-3">
+                <img src="assets/img/data-chart.png" alt="chart image">
+              </div>
+              <div class="col-xl-6 order-0 order-xl-1 py-3">
+                <div class="w-90 m-auto py-2 ">
+                  <i class="fa-solid fa-forward text-mainColor"></i>
+                  <span class="text-mainColor fw-semibold">GLOBAL DATA</span>
+                </div>
+                <h2 class="w-90 m-auto text-uppercase">Browse, Download and Buy Global Industry Data</h2>
+                <p class="py-3 p-text w-90 m-auto">We are proud of the fact that we have formed a highly effective team. The difficulties we have gone through together and the highs we have achieved</p>
+              </div>
+          </div>
+          <div class="row pt-5">
+              <div class="col-xl-3 col-lg-6 py-2">
+                  <div class="d-flex ">
+                      <div>
+                          <i class="fa-solid fa-check fs-5 text-white bg-mainColor p-2 mt-2 rounded-circle d-flex justify-content-center align-items-center"></i>
+                      </div>
+                      <h3 class="ps-4 text-uppercase fs-5">Increased Cutting Precision</h3>
+                  </div>
+                  <p class="p-text pt-2">Pipe cutting is carried out strictly according to the requirements of the technical assignment</p>
+              </div>
+              <div class="col-xl-3 col-lg-6 py-2">
+                  <div class="d-flex ">
+                      <div>
+                          <i class="fa-solid fa-check fs-5 text-white bg-mainColor p-2 mt-2 rounded-circle d-flex justify-content-center align-items-center"></i>
+                      </div>
+                      <h3 class="ps-4 text-uppercase fs-5">Semi-Automatic Operation</h3>
+                  </div>
+                  <p class="p-text pt-2">The skill of the company’s specialists contributes to shortening the terms</p>
+              </div>
+              <div class="col-xl-3 col-lg-6 py-2">
+                  <div class="d-flex ">
+                      <div>
+                          <i class="fa-solid fa-check fs-5 text-white bg-mainColor p-2 mt-2 rounded-circle d-flex justify-content-center align-items-center"></i>
+                      </div>
+                      <h3 class="ps-4 text-uppercase fs-5">High Speed of Operation</h3>
+                  </div>
+                  <p class="p-text pt-2">The provision of a guarantee, a well-thought-out order form and simple registration algorithm</p>
+              </div>
+              <div class="col-xl-3 col-lg-6 py-2">
+                  <div class="d-flex ">
+                      <div>
+                          <i class="fa-solid fa-check fs-5 text-white bg-mainColor p-2 mt-2 rounded-circle d-flex justify-content-center align-items-center"></i>
+                      </div>
+                      <h3 class="ps-4 text-uppercase fs-5">Low Cost of Operations</h3>
+                  </div>
+                  <p class="p-text pt-2">The ability to choose a payment option and related services, including fast delivery</p>
+              </div>
+          </div>
+      </div>
+    </section>
+    <section class="consultation position-relative mb-5">
+      <div class="container">
+          <div class="row py-3">
+              <div class="col-lg-5 border-end text-center py-3">
+                  <p >Professional Consultation Made Easy:</p>
+                  <div class="d-flex justify-content-center">
+                      <i class="fa-solid fa-phone rounded-circle text-mainColor bg-white p-4 fs-3 me-3 h-25"></i>
+                      <div>
+                          <p class="fs-6 pb-0 mb-0 text-start">Hotline Call: </p>
+                          <p class="text-mainColor fs-3 fw-semibold">+1 800 987 533</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-lg-7 py-3">
+                  <div class="row">
+                      <div class="col-md-6">
+                          <div class="w-60 m-auto">
+                              <span class="con-record">>1.5 m</span>
+                              <p>TONS OF PIPES SUPPLIED BY TO CUSTOMERS</p>
+                          </div>
+                      </div>
+                      <div class="col-md-6">
+                          <div class="w-60 m-auto">
+                              <span class="con-record">>1b $</span>
+                              <p>INVESTED IN OVER 20 YEARS</p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </section>
+    <section class="services py-5">
+      <div class="container py-5">
+        <div class="row py-5">
+          <div class="col-lg-6 text-white py-5">
+            <div class="py-2">
+              <i class="fa-solid fa-forward"></i>
+              <span class="fw-semibold">OUR SERVICES</span>
+            </div>
+            <h2>FACTORY SOLUTION FOR ALL INDUSTRIAL</h2>
+            <p class="p-text text-white w-90 mb-5">Formed as a result of industrial enterprises in any field of activity (metallurgy, oil production, oil refining, food industry). Storm water runoff – rain washout from roads, buildings, soil.</p>
+            <a href="#" class="our-sol py-3 px-5 bg-white rounded-pill border-0 text-mainColor text-decoration-none">SEND MASSEGE<i class="fa-solid fa-arrow-right-long ps-2"></i></a>
+          </div>
+          <div class="col-lg-6">
+            <div class="row gap-4">
+              <div class="service col-md-5 py-4 bg-red">
+                <a href="#" class="text-decoration-none text-white">
+                  <div class="w-80 m-auto">
+                    <h5 class="fw-semibold">CHEMICAL ENGINEERING</h4>
+                    <i class="fa-solid fa-flask-vial fs-4 pt-3"></i>
+                  </div>
+                </a>
+              </div>
+              <div class="service col-md-5 py-4 bg-red">
+                <a href="#" class="text-decoration-none text-white">
+                  <div class="w-80 m-auto">
+                    <h5 class="fw-semibold">OIL & GAS ENGINEERING</h4>
+                    <i class="fa-solid fa-oil-can fs-4 pt-3"></i>
+                  </div>
+                </a>
+              </div>
+              <div class="service col-md-5 py-4 bg-red">
+                <a href="#" class="text-decoration-none text-white">
+                  <div class="w-80 m-auto">
+                    <h5 class="fw-semibold">MECHANICAL ENGINEERING</h4>
+                    <i class="fa-solid fa-gears fs-4 pt-3"></i>
+                  </div>
+                </a>
+              </div>
+              <div class="service col-md-5 py-4 bg-red">
+                <a href="#" class="text-decoration-none text-white">
+                  <div class="w-80 m-auto">
+                    <h5 class="fw-semibold">WELDING ENGINEERING</h4>
+                    <i class="fa-solid fa-helmet-safety fs-4 pt-3"></i>
+                  </div>
+                </a>
+              </div>
+              <div class="service col-md-5 py-4 bg-red">
+                <a href="#" class="text-decoration-none text-white">
+                  <div class="w-80 m-auto">
+                    <h5 class="fw-semibold">ENERGY & POWER ENGINEERING</h4>
+                    <i class="fa-solid fa-bolt fs-4 pt-3"></i>
+                  </div>
+                </a>
+              </div>
+              <div class="service col-md-5 py-4 bg-red">
+                <a href="#" class="text-decoration-none text-white">
+                  <div class="w-80 m-auto">
+                    <h5 class="fw-semibold">CIVIL ENGINEERING</h4>
+                    <i class="fa-solid fa-user-doctor fs-4 pt-3"></i>
+                  </div>
+                </a>
+              </div>
+              <div class="service col-md-5 py-4 bg-red">
+                <a href="#" class="text-decoration-none text-white">
+                  <div class="w-80 m-auto">
+                    <h5 class="fw-semibold">CONSTRUCTION ENGINEERING</h4>
+                    <i class="fa-solid fa-city fs-4 pt-3"></i>
+                  </div>
+                </a>
+              </div>
+              <div class="service col-md-5 py-4 bg-red">
+                <a href="#" class="text-decoration-none text-white">
+                  <div class="w-80 m-auto">
+                    <h5 class="fw-semibold">AGRICULTURE ENGINEERING</h4>
+                    <i class="fa-solid fa-water fs-4 pt-3"></i>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="companies py-5">
+      <div class="container text-center py-5 position-relative">
+          <div class="py-2 text-mainColor">
+            <i class="fa-solid fa-forward "></i>
+            <span class="fw-semibold">OUR COMPANIES</span>
+          </div>
+          <h2 class="m-auto py-3 com-info-media text-uppercase">Our Companies, Our Goals & Motivation</h2>
+          <p class="m-auto fs-5 pb-5 com-info-media">We are proud of the fact that we have formed a highly effective team. The difficulties we have gone through together and the highs we have achieved</p>
+          <img src="assets/img/map-home2.png" alt="map image" class="img-fluid">
+          <div class="shapes">
+              <div class="d-flex justify-content-start">
+                  <i class="fa-solid fa-mountain text-mainColor fs-4 pt-1"></i>
+                  <p class="fs-5 ps-2">- MINING</p>
+              </div>
+              <div class="d-flex justify-content-start">
+                  <i class="fa-solid fa-circle text-mainColor fs-4 pt-1"></i>
+                  <p class="fs-5 ps-2">- METALURGY</p>
+              </div>
+              <div class="d-flex justify-content-start">
+                  <i class="fa-solid fa-rectangle-xmark text-mainColor fs-4 pt-1"></i>
+                  <p class="fs-5 ps-2">- ENERGY</p>
+              </div>
+          </div>
+      </div>
+    </section>
+    <section class="ask">
+      <div class="container py-5">
+        <div class="d-flex justify-content-between py-5 d-media">
+          <div>
+            <h2 class="text-white">IF YOU HAVE ANY QUESTIONS LET US KNOW</h2>
+            <p class="p-text text-white py-2">Do you have any questions? Write and our specialists will answer you.</p>
+          </div>
+          <div class="d-flex justify-content-center align-items-center">
+            <a href="#" class="our-sol py-3 px-5 bg-white rounded-pill border-0 text-mainColor text-decoration-none">GET IN TOUCH<i class="fa-solid fa-arrow-right-long ps-2"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="footer">
+        <div class="container pt-5">
+            <div class="row py-3">
+                <div class="col-xl-3 col-md-6 py-3">
+                    <img src="assets/img/logo-white.svg" alt="white logo" class="w-75">
+                    <p class="fs-6 text-white py-4 opacity-75">Follow our social networks and stay up-to-date on our latest updates and happenings.</p>
+                    <div class="d-flex">
+                        <a href="#" class="text-decoration-none text-white-50 w-25 text-start">
+                            <i class="fa-brands transition fa-twitter fs-4"></i>
+                        </a>
+                        <a href="#" class="text-decoration-none text-white-50 w-25 text-start">
+                            <i class="fa-brands transition fa-facebook-f fs-4"></i>
+                        </a>
+                        <a href="#" class="text-decoration-none text-white-50 w-25 text-start">
+                            <i class="fa-brands transition fa-linkedin-in fs-4"></i>
+                        </a>
+                        <a href="#" class="text-decoration-none text-white-50 w-25 text-start">
+                            <i class="fa-brands transition fa-instagram fs-4"></i>
+                        </a>  
+                    </div>
+                </div>
+                <div class="col-xl-3 col-md-6 py-3">
+                    <h5 class="text-white">FIELDS OF APPLICATION</h5>
+                    <div class="ps-1 py-1">
+                        <a href="#" class="text-decoration-none d-block py-2">
+                            <span class="footer-link p-text text-white opacity-75">Metallurgy and Rolled Pipes</span>
+                        </a>
+                        <a href="#" class="text-decoration-none d-block py-2">
+                            <span class="footer-link p-text text-white opacity-75">Petroleum industry</span>
+                        </a>
+                        <a href="#" class="text-decoration-none d-block py-2">
+                            <span class="footer-link p-text text-white opacity-75">Processing of coolants</span>
+                        </a>
+                        <a href="#" class="text-decoration-none d-block py-2">
+                            <span class="footer-link p-text text-white opacity-75">Food processing</span>
+                        </a>
+                        <a href="#" class="text-decoration-none d-block py-2">
+                            <span class="footer-link p-text text-white opacity-75">Other applications</span>
+                            </a>
+                        <a href="#" class="text-decoration-none d-block py-2">
+                            <span class="footer-link p-text text-white opacity-75">Shipping and ports</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-md-6 py-3">
+                    <h5 class="text-white">INFORMATION</h5>
+                    <div class="ps-1 py-1">
+                        <a href="#" class="text-decoration-none d-block py-2">
+                            <span class="footer-link p-text text-white opacity-75">FAQ</span>
+                        </a>
+                        <a href="#" class="text-decoration-none d-block py-2">
+                            <span class="footer-link p-text text-white opacity-75">License</span>
+                        </a>
+                        <a href="#" class="text-decoration-none d-block py-2">
+                            <span class="footer-link p-text text-white opacity-75">Privacy policy</span>
+                        </a>
+                        <a href="#" class="text-decoration-none d-block py-2">
+                            <span class="footer-link p-text text-white opacity-75">Certificates of Quality</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-md-6 py-3">
+                    <h5 class="text-white">COMPANY</h5>
+                    <div class="ps-1 py-1">
+                        <a href="#" class="text-decoration-none d-block py-2">
+                            <span class="footer-link p-text text-white opacity-75">Home</span>
+                        </a>
+                        <a href="#" class="text-decoration-none d-block py-2">
+                            <span class="footer-link p-text text-white opacity-75">Solutions</span>
+                        </a>
+                        <a href="#" class="text-decoration-none d-block py-2">
+                            <span class="footer-link p-text text-white opacity-75">About</span>
+                        </a>
+                        <a href="#" class="text-decoration-none d-block py-2">
+                            <span class="footer-link p-text text-white opacity-75">Services</span>
+                        </a>
+                        <a href="#" class="text-decoration-none d-block py-2">
+                            <span class="footer-link p-text text-white opacity-75">Blog</span>
+                        </a>
+                        <a href="#" class="text-decoration-none d-block py-2">
+                            <span class="footer-link p-text text-white opacity-75">Contacts</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex justify-content-between text-white py-5 footer-info">
+                <div class="px-3">
+                    <p class="m-0 py-2 opacity-75">© 2023 Makaffo by OceanThemes.</p>
+                </div>
+                <div class="me-5">
+                    <ul class="m-0 d-flex list-unstyled">
+                        <li>
+                            <a href="#" class="text-decoration-none d-block py-2">
+                                <span class="footer-link transition text-white opacity-75 mx-3">Privacy Policy</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-decoration-none d-block py-2">
+                                <span class="footer-link transition text-white opacity-75 mx-3">Terms of Use</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="back-to-top bg-mainColor">
+        <a href="#" class="text-decoration-none text-white d-flex justify-content-center align-items-center">
+            <i class="fa-solid fa-arrow-up-long fs-4"></i>
+        </a>
+    </section>
+    <script src="vender/bootstrap/bootstrap.bundle.min.js"></script>
+</body>
